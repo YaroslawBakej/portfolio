@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: 400 22px 'dm sans';
+    font-style: normal;
+}
+
+body {
+    height: 7000px;
+    position: relative;
+    margin: auto;
+    width: 1120px;
+    background: #E5E5E5;
+}
+
+.img-logo {
+    background-image: url(./img/hs..svg);
+    width: 64px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    width: 1140px;
+    position: fixed;
+    top: 0;
+    background-color: #E5E5E5;
+}
+
+header nav p {
+    margin-right: 30px;
+}
+
+.arrow {
+    background-image: url(.//img/↓.svg
+);
+    width: 34px;
+    height: 38px;
+}
+
+.main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left-site h1 {
+    font-weight: 500;
+    font-size: 60px;
+    color: #181717;
+    width: 450px;
+    height: 200px;
+}
+
+main div p {
+    margin-top: 60px;
+    font-size: 32px;
+    color: #606060;
+}
+
+.project-left-side h2 {
+    font: 500 24px 'Dm sans';
+}
+
+.p-black {
+    color: #181717;
+    font: 400 22px 'dm sans';
+}
+
+.p-gray {
+    color: #606060;
+    font: 400 22px 'dm sans';
+}
+
+.container-project {
+    margin-top: 20px;
+
+}
+
+.project-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-img {
+    background-image: url(.//img/Thumbnail.svg);
+    width: 600px;
+    height: 360px;
+}
+
+.container-project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    border-bottom: 2px solid black;
+}
+
+.projects {
+    margin-top: 80px;
+}
+
+.box-1 {
+    height: 275px;
+}
+
+.box-1 p {
+    margin-top: 10px;
+    width: 350px;
+}
+
+.space-hr {
+
+    height: 40px;
+    width: 100%;
+}
+
+.hr {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.about-me {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me h1 {
+    font: 500 60px 'Dm sans';
+    height: 190px;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    height: 327px;
+}
+
+.about-me-left-side {
+    width: 575px;
+    margin-top: 60px;
+}
+
+.about-me-right-side {
+    display: flex;
+    flex-direction: column;
+    /*height: 506px;*/
+    width: 550px;
+    align-items: center;
+}
+
+.about-me-image {
+    background-image: url(./img/Thumbnail\(1\).svg);
+    height: 506px;
+    width: 405px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills-p-right {
+    width: 124px;
+    height: 20px;
+    font: 400 20px 'dm sans';
+    text-decoration-line: underline;
+}
+
+.skills-p-left {
+    font: 400 20px 'dm sans';
+    width: 436px;
+}
+
+.soft-skills-p-left {
+    font: 400 20px 'dm sans';
+    width: 401px;
+}
+
+.your-questions {
+    display: flex;
+    width: 825px;
+    justify-content: space-between;
+}
+
+.your-questions-arrow {
+    background-image: url(./img/↓\(1\).svg);
+    width: 21px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 210px;
+    top: 55px;
+}
+
+.your-questions p {
+    font-size: 32px;
+}
+
+.your-questions-right {
+    width: 347px;
+    height: 71px;
+}
+
+.your-questions-left {
+    width: 170px;
+    height: 37px;
+}
+
+footer {
+    margin-top: 20px;
+    align-items: center;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-left {
+    display: flex;
+    width: 600 px;
+    height: 30px;
+}
+
+footer p {
+    margin-right: 30px;
+}
