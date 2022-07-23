@@ -13,12 +13,19 @@ body {
     background: #E5E5E5;
 }
 
+a {
+    text-decoration: none;
+}
+
 .img-logo {
     background-image: url(./img/hs..svg);
     width: 64px;
     height: 48px;
     background-repeat: no-repeat;
 }
+
+a{
+    text-decoration: none;}
 
 header nav {
     display: flex;
@@ -67,7 +74,7 @@ main div p {
 }
 
 .project-left-side h2 {
-    font: 500 24px 'Dm sans';
+    font: 500 60px 'Dm sans';
 }
 
 .p-black {
