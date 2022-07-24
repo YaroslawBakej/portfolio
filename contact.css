@@ -15,9 +15,10 @@ header nav {
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 header {
     display: flex;
     width: 1120px;
@@ -107,15 +108,44 @@ section {
 .contact-info p {
     color: #606060;
 }
+
 footer {
     margin-top: 110px;
     display: flex;
     justify-content: space-between;
 }
-footer nav{
+
+footer nav {
     display: flex;
 }
-footer nav p:not(:last-child){
+
+footer nav p/*:not(:last-child)*/ {
     margin-right: 32px;
 }
-
+@media screen and (max-width: 600px) {
+    header{
+        width:600px;
+    }
+    main{
+        margin-top: 120px;
+    }
+    main h1{
+        font-size: 45px;
+    }
+    footer{
+        width: 600px;
+    }
+    section{
+        display: block;
+    }
+    .contact-form{
+        margin-left: 10px;
+    }
+    .contact-info{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .contact-form input {
+        width: 500px;
+    }
+}
